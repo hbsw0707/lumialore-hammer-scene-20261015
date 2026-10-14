@@ -88,6 +88,34 @@
           "sha256": "b857cb67f7dd2c439f8e6d31ef3e279fa18ae2cec66b320382d03a83593178e5"
         }
       ]
+    },
+    {
+      "asset": "knight-piacenti",
+      "author": "Gabriel Piacenti",
+      "source": "https://opengameart.org/content/knight-2",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "modifications": "Removed independent equipment, added scene-specific skeleton and skin weights, adapted pose and gauntlet grip. Original texture maps.",
+      "files": [
+        {
+          "file": "piacenti-armor.glb",
+          "bytes": 1199244,
+          "sha256": "77061c69cad8bbcc76af881f02302bd44de05f4e464c7eb24d488a34a51ff5c6",
+          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/armor.gltf"
+        },
+        {
+          "file": "colormap_rgba.ktx",
+          "bytes": 5592544,
+          "sha256": "7d444d53c2d69d06b74e52641fa43cd25368102fbe8da67fbf1cb7285c683551",
+          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/colormap_rgba.ktx"
+        },
+        {
+          "file": "normalmap_rgba.ktx",
+          "bytes": 5592544,
+          "sha256": "5f580e9c35b69d4ea009b26bc4485f2b8c680cc7da28ff6bd5e2cb784d78a328",
+          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/normalmap_rgba.ktx"
+        }
+      ]
     }
   ]
 }
