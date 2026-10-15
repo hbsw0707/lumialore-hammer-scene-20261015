@@ -90,34 +90,6 @@
       ]
     },
     {
-      "asset": "knight-piacenti",
-      "author": "Gabriel Piacenti",
-      "source": "https://opengameart.org/content/knight-2",
-      "license": "CC-BY-3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0/",
-      "modifications": "Removed independent equipment, added scene-specific skeleton and skin weights, adapted pose and gauntlet grip. Original texture maps.",
-      "files": [
-        {
-          "file": "piacenti-armor.glb",
-          "bytes": 1199244,
-          "sha256": "77061c69cad8bbcc76af881f02302bd44de05f4e464c7eb24d488a34a51ff5c6",
-          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/armor.gltf"
-        },
-        {
-          "file": "colormap_rgba.ktx",
-          "bytes": 5592544,
-          "sha256": "7d444d53c2d69d06b74e52641fa43cd25368102fbe8da67fbf1cb7285c683551",
-          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/colormap_rgba.ktx"
-        },
-        {
-          "file": "normalmap_rgba.ktx",
-          "bytes": 5592544,
-          "sha256": "5f580e9c35b69d4ea009b26bc4485f2b8c680cc7da28ff6bd5e2cb784d78a328",
-          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/normalmap_rgba.ktx"
-        }
-      ]
-    },
-    {
       "asset": "human-hammer-reference-60994",
       "source": "Human supplied 60994.png",
       "source_sha256": "3379dc64c6fd90713d7bc254f3e7ebe5a632266bef8c8ec50e235e29108005f2",
@@ -234,6 +206,34 @@
             ],
             "seam": "mirrored circumference"
           }
+        }
+      ]
+    },
+    {
+      "asset": "knight-piacenti",
+      "author": "Gabriel Piacenti",
+      "source": "https://opengameart.org/content/knight-2",
+      "license": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "modifications": "Removed independent equipment. Reproportioned the source mesh and matching bind skeleton for longer thighs and shins; rigid armor plates and localized joint weights. Adapted pose and gauntlet grip. Original texture maps.",
+      "files": [
+        {
+          "file": "piacenti-armor.glb",
+          "bytes": 1199508,
+          "sha256": "d75b81c18c93a34ddc43dd68d888e24c7c97ca384861af64d286beb0924da78e",
+          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/armor.gltf"
+        },
+        {
+          "file": "colormap_rgba.ktx",
+          "bytes": 5592544,
+          "sha256": "7d444d53c2d69d06b74e52641fa43cd25368102fbe8da67fbf1cb7285c683551",
+          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/colormap_rgba.ktx"
+        },
+        {
+          "file": "normalmap_rgba.ktx",
+          "bytes": 5592544,
+          "sha256": "5f580e9c35b69d4ea009b26bc4485f2b8c680cc7da28ff6bd5e2cb784d78a328",
+          "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/normalmap_rgba.ktx"
         }
       ]
     }
