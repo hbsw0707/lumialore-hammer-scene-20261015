@@ -209,6 +209,33 @@
           }
         }
       ]
+    },
+    {
+      "asset": "human-staff-reference-61010",
+      "source": "Human supplied 61010.jpg",
+      "source_sha256": "d0ebb3b8d84551d1eac9828a808d0e0a974fdd40a2acf015e9b186f283a37e16",
+      "license": "User-provided reference, used at the Human request",
+      "modifications": "Rectified engraved metal detail on real 3D shaft and articulated branches; original sheet not embedded.",
+      "files": [
+        {
+          "file": "staff-ref-damascus.png",
+          "bytes": 215972,
+          "sha256": "cad57f52e42b5e20cdfa5f63691e03380f837a70be6b290d2576cf4cb763c898",
+          "derivation": {
+            "source_quad_ul_ll_lr_ur": [
+              653,
+              642,
+              544,
+              761,
+              578,
+              783,
+              680,
+              660
+            ],
+            "seam": "mirrored circumference"
+          }
+        }
+      ]
     }
   ]
 }
