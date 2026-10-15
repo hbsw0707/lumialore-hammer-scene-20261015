@@ -159,6 +159,23 @@
           }
         },
         {
+          "file": "hammer-ref-crown.png",
+          "bytes": 210844,
+          "sha256": "9bd25c8c4c1b79a3f1b943fe6f0a9fb313e9a00266be5fd6a8e120714cac7aad",
+          "derivation": {
+            "source_quad_ul_ll_lr_ur": [
+              809,
+              91,
+              788,
+              113,
+              861,
+              107,
+              873,
+              83
+            ]
+          }
+        },
+        {
           "file": "hammer-ref-face.png",
           "bytes": 217641,
           "sha256": "75b40d8dbc3ffbb5f636b9850b9df2cef34a68ce7c2cc8af96f5dae9b1749f1d",
