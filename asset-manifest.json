@@ -116,6 +116,82 @@
           "source": "https://raw.githubusercontent.com/SaschaWillems/Vulkan-Assets/a27c0e584434d59b7c7a714e9180eefca6f0ec4b/models/armor/normalmap_rgba.ktx"
         }
       ]
+    },
+    {
+      "asset": "human-hammer-reference-60994",
+      "source": "Human supplied 60994.png",
+      "source_sha256": "3379dc64c6fd90713d7bc254f3e7ebe5a632266bef8c8ec50e235e29108005f2",
+      "license": "User-provided reference, used at the Human request",
+      "modifications": "Rectified surface maps for actual articulated 3D parts; original full concept sheet not embedded.",
+      "files": [
+        {
+          "file": "hammer-ref-upper.png",
+          "bytes": 210961,
+          "sha256": "dd2c411498c87b599b375c5168dac80bcebb9889ab4acff706e97e403ee7ef92",
+          "derivation": {
+            "source_quad_ul_ll_lr_ur": [
+              781,
+              132,
+              768,
+              178,
+              830,
+              176,
+              836,
+              125
+            ]
+          }
+        },
+        {
+          "file": "hammer-ref-lower.png",
+          "bytes": 183159,
+          "sha256": "2ddcdc06fd17ef591bb69ab4fb689161ca89f8b9299eed7e153aea7926ed92e2",
+          "derivation": {
+            "source_quad_ul_ll_lr_ur": [
+              768,
+              191,
+              776,
+              252,
+              830,
+              253,
+              829,
+              187
+            ]
+          }
+        },
+        {
+          "file": "hammer-ref-face.png",
+          "bytes": 217641,
+          "sha256": "75b40d8dbc3ffbb5f636b9850b9df2cef34a68ce7c2cc8af96f5dae9b1749f1d",
+          "derivation": {
+            "center": [
+              907,
+              202
+            ],
+            "horizontal_basis": [
+              20,
+              -2
+            ],
+            "vertical_basis": [
+              5,
+              45
+            ]
+          }
+        },
+        {
+          "file": "hammer-ref-crest.png",
+          "bytes": 83705,
+          "sha256": "0bf3e982e9cd27b35ab4d942480bffeed4ef101610a2140c699d32b0a2afca63",
+          "derivation": {
+            "source_rect": [
+              41,
+              184,
+              79,
+              228
+            ],
+            "alpha": "warm gold pixels from the supplied ornament"
+          }
+        }
+      ]
     }
   ]
 }
