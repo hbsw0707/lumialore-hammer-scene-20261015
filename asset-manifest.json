@@ -237,5 +237,52 @@
         }
       ]
     }
-  ]
+  ],
+  "activeRuntime": {
+    "scope": "Current authored two-handed hammer performance and fixed-length armor solver. The native hammer attack path does not consume the previous retargeted Gres attack clips.",
+    "files": [
+      {
+        "file": "hammer-performance.mjs",
+        "bytes": 18573,
+        "sha256": "91fd3314caa2252020d61f1d14a6c8e10aef18d1918b740dc379ab6b0c3dcc5a"
+      },
+      {
+        "file": "hammer-body-solver.mjs",
+        "bytes": 12886,
+        "sha256": "241609c397adfb12d77b8b48f44c0bd87b6eeb89508db2abdcb68d78312fe6ff"
+      },
+      {
+        "file": "characters.js",
+        "bytes": 28628,
+        "sha256": "409a14268ac007c737334ca36f68957cb585befd54c740af66ae8d40fce30da7"
+      },
+      {
+        "file": "rigged-character.js",
+        "bytes": 22366,
+        "sha256": "a493c42b87e3f5aa37bd332ffd00ce290a329277eb8cdb1cb888bd2c781fde03"
+      },
+      {
+        "file": "combo-motion.mjs",
+        "bytes": 1031,
+        "sha256": "f7b598ed3e2bb688a28f0aa7f536ed7d2bf4a0e2b0ad5a602b2b3f0386ca91c2"
+      }
+    ]
+  },
+  "animation": {
+    "scope": "Legacy Gres adaptation payload retained for the previous 9abfd28 candidate and comparison evidence. This attribution describes that previous animation source, not the current authored native hammer attack path.",
+    "author": "Gres",
+    "url": "https://opengameart.org/content/humanoid-soulslike-animations",
+    "license": "CC0-1.0",
+    "twoHandSha256": "0b76a1b1a3021a260061b66be85795818f185fb37e458cbbe5562f7ae7e942ae",
+    "coreSha256": "c5c0263c85463e69a648de5d059905502d5ba1e2292a242c14d2492d8f253253",
+    "restSha256": "c160c2091616e58c3c983d149e6069a6626926652983a6fcd4e682cd2fafb39c",
+    "adaptation": "Full-body retarget, mechanical hammer fitting and authored crossover turns",
+    "files": [
+      {
+        "file": "motion-data.json",
+        "bytes": 1766465,
+        "sha256": "03310617c9f0cc1b8e1cdfe0896b6e1af7daeddf1620c02d9679094b4aa246a5"
+      }
+    ]
+  }
 }
